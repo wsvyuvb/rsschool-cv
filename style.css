@@ -22,6 +22,9 @@ html {
 
     font-size: 10px;
 
+    @media (max-width: 768px) {
+        font-size: calc(10vw / 7.68);
+    }
     @media (max-width: 640px) {
         font-size: calc(10vw / 3.6);
     }
@@ -85,6 +88,7 @@ a {
     flex-grow: 1;
     max-width: 100%;
     overflow: hidden;
+    padding-block: 2rem;
 }
 
 .container {
@@ -107,7 +111,7 @@ a {
 .header--title {
     font-weight: 600;
     margin: 0;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .main-nav {
@@ -150,6 +154,7 @@ a {
     align-items: center;
     justify-content: flex-start;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 .info-main--media {
@@ -183,9 +188,15 @@ a {
 }
 
 .info-block--header {
+    &:not(:last-child) {
+        margin-bottom: 1rem;
+    }
 }
 
 .info-block--title {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
 }
 
 .info-block--content {
@@ -245,7 +256,24 @@ a {
         flex-direction: column;
     }
 
+    .nav-list {
+        justify-content: center;
+    }
+
+    .info-main {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .info-main--name {
+        font-size: 2.4rem;
+    }
+
     .info-sections > * {
         width: 100%;
+    }
+
+    .footer-list {
+        flex-direction: column;
     }
 }
