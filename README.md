@@ -1,2 +1,2 @@
-# wsvyuvb rsschool-cv
+# rsschool-cv
 [wsvyuvb cv link](https://wsvyuvb.github.io/rsschool-cv/cv)
