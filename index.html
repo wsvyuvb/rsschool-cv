@@ -2,10 +2,166 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artem Feschenko rsschool-cv</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+
+<div class="main-wrapper">
+
+    <header class="header" id="header">
+
+        <div class="container">
+
+            <h1 class="header--title">rsschool-cv</h1>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <!--li class="nav-list--item"><a href="#main" class="nav-list--link">Main</a></li-->
+                    <li class="nav-list--item"><a href="#contacts" class="nav-list--link">Contacts</a></li>
+                    <li class="nav-list--item"><a href="#bio" class="nav-list--link">Bio</a></li>
+                    <li class="nav-list--item"><a href="#skills" class="nav-list--link">Skills</a></li>
+                    <li class="nav-list--item"><a href="#examples" class="nav-list--link">Examples</a></li>
+                    <li class="nav-list--item"><a href="#expirience" class="nav-list--link">Expirience</a></li>
+                    <li class="nav-list--item"><a href="#education" class="nav-list--link">Education</a></li>
+                    <li class="nav-list--item"><a href="#languages" class="nav-list--link">Languages</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <main class="content-container">
+
+        <div class="container">
+
+            <section class="info-main" id="main">
+
+                <div class="info-main--media">
+                    <img src="./assets/img/photo.jpg" alt="Artem Feschenko" class="info-main--image">
+                </div>
+                <div class="info-main--content">
+                    <div class="info-main--name">Artem Feschenko</div>
+                </div>
+
+            </section>
+
+            <div class="info-sections">
+
+                <section class="info-block" id="contacts">
+                    <div class="info-block--header">
+                        <h2 class="info-block--title">Contacts</h2>
+                    </div>
+                    <div class="info-block--content">
+                        <ul class="data-list">
+                            <li class="data-list--item">tg <a href="https://t.me/wsvyuvb" class="data-list--link">@wsvyuvb</a></li>
+                            <li class="data-list--item">email: <a href="mailto:art.eatme@gmail.com" class="data-list--link">art.eatme@gmail.com</a></li>
+                        </ul>
+
+                    </div>
+                </section>
+                <section class="info-block" id="bio">
+                    <div class="info-block--header">
+                        <h2 class="info-block--title">Bio</h2>
+                    </div>
+                    <div class="info-block--content">
+                        I'm 43 years old html/css creator. I have long-term experience of creating landings and multipages sites from Photoshop and Figma. Need to expand knowledge in the field of website and application creation.
+                    </div>
+                </section>
+                <section class="info-block" id="skills">
+                    <div class="info-block--header">
+                        <h2 class="info-block--title">Skills</h2>
+                    </div>
+                    <div class="info-block--content">
+                        <ul class="data-list">
+                            <li class="data-list--item">HTML, CSS</li>
+                            <li class="data-list--item">JavaScript</li>
+                            <li class="data-list--item">PHP/MySQL <span>(beginner)</span></li>
+                            <li class="data-list--item">Figma, Photoshop</li>
+                            <li class="data-list--item">Gulp</li>
+                            <li class="data-list--item">Git</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="info-block" id="examples">
+                    <div class="info-block--header">
+                        <h2 class="info-block--title">Examples</h2>
+                    </div>
+                    <div class="info-block--content">
+        <pre class="code-pre">// Expanders
+var expanders = document.querySelectorAll('.expander');
+expanders.forEach(el => {
+    el.querySelector('.expander__header').onclick = (e) => {
+        e.preventDefault();
+        el.classList.toggle('expanded');
+    }
+});</pre>
+                    </div>
+                </section>
+                <section class="info-block" id="expirience">
+                    <div class="info-block--header">
+                        <h2 class="info-block--title">Expirience</h2>
+                    </div>
+                    <div class="info-block--content">
+                        <ul class="data-list">
+                            <li class="data-list--item">Mostly freelance</li>
+                            <li class="data-list--item">RS Schools Course «JavaScript/Front-end. Stage 0» <span>(in
+                                progress)</span></li>
+                            <li class="data-list--item">
+                                <a href="https://wsvyuvb.github.io/rsschool-cv/" class="data-list--link">wsvyuvb.github.io/rsschool-cv/</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </section>
+                <section class="info-block" id="education">
+                    <div class="info-block--header">
+                        <h2 class="info-block--title">Education</h2>
+                    </div>
+                    <div class="info-block--content">
+                        <ul class="data-list">
+                            <li class="data-list--item">Krasnoyarsk State University, Faculty of Mathematics, Bachelor's degree</li>
+                        </ul>
+
+                    </div>
+                </section>
+                <section class="info-block" id="languages">
+                    <div class="info-block--header">
+                        <h2 class="info-block--title">Languages</h2>
+                    </div>
+                    <div class="info-block--content">
+                        <ul class="data-list">
+                            <li class="data-list--item">English - Intermediate (I'll take the test later)</li>
+                        </ul>
+
+                    </div>
+                </section>
+
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <ul class="footer-list">
+                <li class="footer-list--item"><a href="https://github.com/wsvyuvb" class="footer-list--link">github.com/wsvyuvb</a> &copy; 2025</li>
+                <li class="footer-list--item"><a href="https://rs.school/courses/javascript-preschool-ru" class="footer-list--link"><img src="./assets/img/rs-school-logo.svg" alt="RS School" class="footer-list--image"></a></li>
+                <li class="nav-list--item"><a href="#header" class="nav-list--link">to top</a></li>
+            </ul>
+
+        </div>
+
+    </footer>
+
+</div>
 
 </body>
 </html>
