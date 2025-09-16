@@ -89,13 +89,13 @@
                         <h2 class="info-block--title">Examples</h2>
                     </div>
                     <div class="info-block--content">
-        <pre class="code-pre">// Expanders
+<pre class="code-pre">// Expanders
 var expanders = document.querySelectorAll('.expander');
-expanders.forEach(el => {
-    el.querySelector('.expander__header').onclick = (e) => {
+expanders.forEach(function(el) {
+    el.querySelector('.expander__header').onclick(function(e) {
         e.preventDefault();
         el.classList.toggle('expanded');
-    }
+    });
 });</pre>
                     </div>
                 </section>
