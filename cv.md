@@ -28,3 +28,6 @@ expanders.forEach(el => {
    * [RS Schools «JS / Front-end Course»](https://rs.school/courses/javascript) (in progress)
 7. Krasnoyarsk State University, Faculty of Mathematics, Bachelor's degree
 8. English - Intermediate (I'll take the test later)
+9. Some links:
+   * https://github.com/wsvyuvb © 2026
+   
