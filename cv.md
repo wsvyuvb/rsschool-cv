@@ -1,6 +1,7 @@
 # rsschool-cv
 1. Artem Feschenko
 2. Contacts:
+   * Discord: [@wsvyuvb](https://discord.com/users/wsvyuvb)
    * tg: [@wsvyuvb](https://t.me/wsvyuvb)
    * email: [art.eatme@gmail.com](mailto:art.eatme@gmail.com)
 3. I'm 44 years old html/css creator. I have long-term experience of creating landings and multipages sites from Photoshop and Figma. Need to expand knowledge in the field of website and application creation.
