@@ -3,7 +3,7 @@
 2. Contacts:
    * tg: [@wsvyuvb](https://t.me/wsvyuvb)
    * email: [art.eatme@gmail.com](mailto:art.eatme@gmail.com)
-3. I'm 43 years old html/css creator. I have long-term experience of creating landings and multipages sites from Photoshop and Figma. Need to expand knowledge in the field of website and application creation.
+3. I'm 44 years old html/css creator. I have long-term experience of creating landings and multipages sites from Photoshop and Figma. Need to expand knowledge in the field of website and application creation.
  4. Skills:
     * HTML, CSS
     * JavaScrip
@@ -24,6 +24,6 @@ expanders.forEach(el => {
 ```
 6. Courses and jobs:
    * Mostly freelance
-   * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+   * [RS Schools «JS / Front-end Course»](https://rs.school/courses/javascript) (in progress)
 7. Krasnoyarsk State University, Faculty of Mathematics, Bachelor's degree
 8. English - Intermediate (I'll take the test later)
